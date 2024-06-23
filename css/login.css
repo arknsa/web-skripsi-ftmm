@@ -13,12 +13,14 @@
     src: url(../font/Roboto-Regular.ttf);
 }
 
-
 .container {
     display: flex;
-    background-color:white;
-    width : 1920px;
-    height: 1080px;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .logo-container {
@@ -29,103 +31,82 @@
 }
 
 .logo-unair {
-    margin-left: 50px;
-    margin-top: 26px;
-    width : 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px;
     height: 57px;
 }
 
 .logo-ftmm {
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 137px;
     height: 37px;
 }
 
 .login-form {
-    width: 388px;
-    height: 452px;
-    padding-left: 18px;
-    padding-top: 30.5px;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 249px;
-    margin-top: 250px;
-
+    margin: 0 auto;
 }
 
 .login-container {
     display: flex;
-    margin-left: 249px;
-    margin-top: 250px;
-    width: 450px;
-    height: 488px;
+    width: 100%;
+    max-width: 450px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
-    
 }
 
 .title-1 {
-    width: 388px;
-    height: 72px;
-    font-size: 36px;
+    font-size: 24px;
     font-family: 'Gotham Black';
     color: #0C1421;
     margin: 0;
-    margin-top: 200px;
 }
 
-
-.text-1{
-    width: 335px;
-    height: 96px;
+.text-1 {
     font-family: 'Gotham';
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .input-group {
-    width: 388px;
-    height: 48px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .input-group label {
-    font-family:"Roboto" ;
-    width: 80px;
-    height: 16px;
+    font-family: "Roboto";
     display: block;
     font-size: 16px;
-    margin-bottom: 10px;
     color: #0C1421;
     font-weight: bold;
-    margin-top: 24px;
 }
 
 .input-group input {
-    width: 310px;
+    width: 100%;
     padding: 10px;
-    font-family:"Roboto";
+    font-family: "Roboto";
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background: #F7FBFF;
     border: 1px solid #D4D7E3;
     border-radius: 12px;
-    
 }
 
 .forgot-password {
-    width: 123px;
-    height: 16px;
-    font-family:"Roboto";
+    font-family: "Roboto";
     font-size: 16px;
     text-align: left;
-    margin-top: 36px;
+    margin-top: 15px;
 }
 
 .forgot-password a {
@@ -133,16 +114,14 @@
     font-family: "Roboto";
     font-size: 15px;
     text-decoration: none;
-    margin-top: 24px;
 }
 
 form {
-    width: 321px;
+    width: 100%;
 }
 
 button {
-    width: 330px;
-    height: 72;
+    width: 100%;
     padding: 10px;
     background-color: #FBC505;
     border: none;
@@ -151,8 +130,8 @@ button {
     font-family: 'Roboto';
     color: black;
     cursor: pointer;
-    box-shadow: 1px 2px 10px 0 rgba(0,0,0,0.4);
-    margin-top: 24px;
+    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.4);
+    margin-top: 15px;
 }
 
 button:hover {
@@ -160,49 +139,52 @@ button:hover {
 }
 
 .register {
-    width: 321px;
     text-align: center;
     font-size: 16px;
     font-family: 'Roboto';
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .register a {
     color: #1E4AE9;
     text-decoration: none;
-
 }
 
-.text-2{
-    width: 360px;
-    font-size: 15px;
+.text-2 {
+    font-size: 14px;
     font-family: "Roboto";
     text-align: left;
     color: grey;
-    margin-top: 190px;
-    
+    margin-top: 20px;
 }
 
 .image-container {
-    flex: 800;
+    flex: 1;
     overflow: hidden;
     position: relative;
-    width: 640px;
-    height: 893px;
-    display: flex;
-    margin-top: 93px;
-    margin-left: 75px;
+    display: none;
 }
 
 .image-container img {
-    width: 640px;
-    height: 893px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.building-image {
-    width: 640px;
-    height: 893px;
-    margin-left: 275px;
-    border-radius: 90px;
+/* Media Queries for responsiveness */
+@media (min-width: 768px) {
+    .image-container {
+        display: flex;
+        margin-top: 20px;
+    }
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .login-form {
+        width: 60%;
+    }
+    .image-container {
+        width: 40%;
+    }
 }
-   
