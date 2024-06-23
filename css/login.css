@@ -13,110 +13,146 @@
     src: url(../font/Roboto-Regular.ttf);
 }
 
+
 .container {
     display: flex;
-    background-color: white;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header {
-    width: 100%;
-    padding: 10px;
-    background-color: #f8f9fa;
+    background-color:white;
+    width : 1920px;
+    height: 1080px;
 }
 
 .logo-container {
     display: flex;
+    width: 215px;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+    justify-content: space-between;
 }
 
-.logo-unair, .logo-ftmm {
-    max-width: 100px;
-    height: auto;
-    margin: 0 10px;
+.logo-unair {
+    margin-left: 50px;
+    margin-top: 26px;
+    width : 60px;
+    height: 57px;
+}
+
+.logo-ftmm {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 137px;
+    height: 37px;
 }
 
 .login-form {
-    width: 90%;
-    max-width: 500px;
-    padding: 20px;
+    width: 388px;
+    height: 452px;
+    padding-left: 18px;
+    padding-top: 30.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 249px;
+    margin-top: 250px;
+
+}
+
+.login-container {
+    display: flex;
+    margin-left: 249px;
+    margin-top: 250px;
+    width: 450px;
+    height: 488px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin: 20px 0;
+    overflow: hidden;
+    
 }
 
 .title-1 {
-    font-size: 24px;
+    width: 388px;
+    height: 72px;
+    font-size: 36px;
     font-family: 'Gotham Black';
     color: #0C1421;
-    text-align: center;
-    margin: 10px 0;
+    margin: 0;
+    margin-top: 200px;
 }
 
-.text-1 {
+
+.text-1{
+    width: 335px;
+    height: 96px;
     font-family: 'Gotham';
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
-    margin: 10px 0;
+    margin-top: 25px;
 }
 
 .input-group {
-    width: 100%;
-    margin: 10px 0;
+    width: 388px;
+    height: 48px;
+    margin-top: 30px;
 }
 
 .input-group label {
-    font-family: "Roboto";
-    font-size: 14px;
+    font-family:"Roboto" ;
+    width: 80px;
+    height: 16px;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
     color: #0C1421;
     font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
+    margin-top: 24px;
 }
 
 .input-group input {
-    width: 100%;
+    width: 310px;
     padding: 10px;
-    font-family: "Roboto";
-    font-size: 14px;
+    font-family:"Roboto";
+    font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background: #F7FBFF;
     border: 1px solid #D4D7E3;
     border-radius: 12px;
+    
 }
 
 .forgot-password {
-    width: 100%;
-    text-align: right;
-    margin: 10px 0;
+    width: 123px;
+    height: 16px;
+    font-family:"Roboto";
+    font-size: 16px;
+    text-align: left;
+    margin-top: 36px;
 }
 
 .forgot-password a {
     color: #1E4AE9;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
+    margin-top: 24px;
+}
+
+form {
+    width: 321px;
 }
 
 button {
-    width: 100%;
+    width: 330px;
+    height: 72;
     padding: 10px;
     background-color: #FBC505;
     border: none;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto';
     color: black;
     cursor: pointer;
-    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.4);
-    margin: 20px 0;
+    box-shadow: 1px 2px 10px 0 rgba(0,0,0,0.4);
+    margin-top: 24px;
 }
 
 button:hover {
@@ -124,63 +160,49 @@ button:hover {
 }
 
 .register {
+    width: 321px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Roboto';
-    margin: 10px 0;
+    margin-top: 15px;
 }
 
 .register a {
     color: #1E4AE9;
     text-decoration: none;
+
 }
 
-.text-2 {
-    font-size: 14px;
+.text-2{
+    width: 360px;
+    font-size: 15px;
     font-family: "Roboto";
-    text-align: center;
+    text-align: left;
     color: grey;
-    margin: 20px 0;
+    margin-top: 190px;
+    
 }
 
 .image-container {
-    width: 90%;
-    max-width: 500px;
-    margin: 20px 0;
+    flex: 800;
+    overflow: hidden;
+    position: relative;
+    width: 640px;
+    height: 893px;
+    display: flex;
+    margin-top: 93px;
+    margin-left: 75px;
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 640px;
+    height: 893px;
 }
 
-/* Media Queries for responsiveness */
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .login-form {
-        margin-right: 20px;
-    }
-
-    .image-container {
-        margin-left: 20px;
-    }
+.building-image {
+    width: 640px;
+    height: 893px;
+    margin-left: 275px;
+    border-radius: 90px;
 }
-
-@media (min-width: 1024px) {
-    .container {
-        width: 80%;
-    }
-
-    .title-1 {
-        font-size: 36px;
-    }
-
-    .text-1 {
-        font-size: 18px;
-    }
-}
+   
