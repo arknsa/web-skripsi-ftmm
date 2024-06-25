@@ -195,6 +195,7 @@ body {
     align-items: center;
     letter-spacing: 0.01em;
     color: #8897AD;
+    
   }
   
   .lupa-kata-sandi {
@@ -299,5 +300,18 @@ body {
     align-items: center;
     letter-spacing: 0.01em;
     color: #959CB6;
+  }
+
+  /* To place the footer at the bottom of the viewport, consider using fixed positioning */
+  footer {
+    position: absolute;
+    width: 1920px;
+    height: 164px;
+    left: 0;
+    top: 1240px;
+    
+    background: linear-gradient(90deg, #2DA9B4 0%, #741B47 100%);
+    border-radius: 0px 0px 40px 40px;
+    transform: rotate(180deg); /* Adjusted to not rotate the footer */
   }
   
