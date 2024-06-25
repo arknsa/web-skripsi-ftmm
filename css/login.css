@@ -306,9 +306,9 @@ body {
   footer {
     position: absolute;
     width: 1920px;
-    height: 164px;
+    height: 64px;
     left: 0;
-    top: 1240px;
+    top: 1040px;
     
     background: linear-gradient(90deg, #2DA9B4 0%, #741B47 100%);
     border-radius: 0px 0px 40px 40px;
