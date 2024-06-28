@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Skripsi</title>
+    <link rel="stylesheet" href="../css/daftar-skripsi.css">
+</head>
+<body>
+    <div class="header">
+        <img src="header.png" alt="Header Background" class="header-bg">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="../img/unair-ftmm-removebg-preview.png" alt="Logo" class="logo">
+                <h1>Portal Skripsi Fakultas Teknologi Maju dan Multidisiplin</h1>
+            </div>
+            <a href="../html/login.html" class="logout">Log Out</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="../html/homepage-mahasiswa.html" class="beranda">Beranda</a>
+            <div class="profile">
+                <div class="avatar"></div>
+                <div class="info">
+                    <h3>NAMA LENGKAP</h3>
+                    <p>1642210XX</p>
+                    <p>S1 - Teknologi Sains Data</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../html/biodata.html">Biodata<span class="nav-icon"></span></a></li>
+                    <li><a href="../html/daftar-skripsi.html" class="active">Daftar Skripsi <span class="nav-icon"></span></a></li>
+                    <li><a href="../html/status-skripsi.html">Status Skripsi <span class="nav-icon"></span></a></li>
+                    <li><a href="#">Daftar Sempro <span class="nav-icon"></span></a></li>
+                    <li><a href="#">Daftar Sidang <span class="nav-icon"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <h2>Pengajuan Skripsi</h2>
+            <form id="skripsiForm">
+                <div class="form-group">
+                    <label for="judul">Judul Skripsi</label>
+                    <input type="text" id="judul" name="judul">
+                </div>
+                <div class="form-group">
+                    <label for="keterangan">Keterangan Judul</label>
+                    <textarea id="keterangan" name="keterangan"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="latarBelakang">Latar Belakang</label>
+                    <textarea id="latarBelakang" name="latarBelakang"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="dosenPembimbing1">Dosen Pembimbing I</label>
+                    <select id="dosenPembimbing1" name="dosenPembimbing1">
+                        <option value="">Pilih Dosen Pembimbing</option>
+                    </select>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="dosenPembimbing2">Dosen Pembimbing II</label>
+                    <select id="dosenPembimbing2" name="dosenPembimbing2">
+                        <option value="">Pilih Dosen Pembimbing</option>
+                    </select>
+                <p>*Dosen Pembimbing bisa berubah sesuai dengan approval oleh GPM</p>
+                </div>
+                <div class="form-group">
+                    <label for="transkrip">Upload Transkrip Nilai Akhir</label>
+                    <input type="file" id="transkrip" name="transkrip">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/daftar-skripsi.js"></script>
+</body>
+</html>

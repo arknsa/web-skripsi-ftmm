@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Skripsi</title>
+    <link rel="stylesheet" href="../css/status-skripsi.css">
+</head>
+<body>
+    <div class="header">
+        <img src="header.png" alt="Header Background" class="header-bg">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="../img/unair-ftmm-removebg-preview.png" alt="Logo" class="logo">
+                <h1>Portal Skripsi Fakultas Teknologi Maju dan Multidisiplin</h1>
+            </div>
+            <a href="#" class="logout">Log Out</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="../html/homepage-mahasiswa.html" class="beranda">Beranda</a>
+            <div class="profile">
+                <div class="avatar"></div>
+                <div class="info">
+                    <h3>NAMA LENGKAP</h3>
+                    <p>1642210XX</p>
+                    <p>S1 - Teknologi Sains Data</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../html/biodata.html">Biodata<span class="nav-icon"></span></a></li>
+                    <li><a href="../html/daftar-skripsi.html">Daftar Skripsi<span class="nav-icon"></span></a></li>
+                    <li><a href="../html/status-skripsi.html" class="active">Status Skripsi<span class="nav-icon"></span></a></li>
+                    <li><a href="#">Daftar Sempro<span class="nav-icon"></span></a></li>
+                    <li><a href="#">Daftar Sidang<span class="nav-icon"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <h2>Status Skripsi</h2>
+            <table class="status-table">
+                <thead>
+                    <tr>
+                        <th>Judul Skripsi</th>
+                        <th>Latar Belakang</th>
+                        <th>Dosen Pembimbing</th>
+                        <th>Status Skripsi</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Judul Skripsi Contoh</td>
+                        <td>Latar Belakang Contoh</td>
+                        <td>Dosen Pembimbing Contoh</td>
+                        <td>Status Skripsi Contoh</td>
+                        <td>Keterangan Contoh</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="notes-section">
+                <h3>Catatan Dari Dosen</h3>
+                <textarea class="notes" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
