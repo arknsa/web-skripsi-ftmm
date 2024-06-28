@@ -1,0 +1,367 @@
+/* Homepage Mahasiswa */
+body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF;
+    margin: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+/* Header */
+header {
+    position: absolute;
+    width: 100%;
+    height: 164px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, #2DA9B4 0%, #741B47 100%);
+    border-radius: 0px 0px 40px 40px;
+}
+
+/* Logo Unair dan Web FTMM Putih */
+.logo {
+    position: absolute;
+    width: 210px;
+    height: 53px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 23px;
+    background: url('unair-ftmm-removebg-preview.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Text 1 Laman */
+.header-text {
+    position: absolute;
+    width: 100%;
+    top: 93px;
+    font-family: 'Gotham Black', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+/* Beranda */
+.beranda {
+    box-sizing: border-box;
+    position: absolute;
+    width: 403px;
+    height: 1046px;
+    left: 42px;
+    top: 206px;
+    background: #F7FBFF;
+    border: 1px solid #D4D7E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Font Beranda */
+.beranda-text {
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 31px;
+    top: 32px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+/* Foto Profil */
+.foto-profil {
+    box-sizing: border-box;
+    position: absolute;
+    width: 262px;
+    height: 262px;
+    left: 73px;
+    top: 98px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 180px;
+}
+
+/* Nama Lengkap */
+.nama-lengkap {
+    position: absolute;
+    width: 183px;
+    height: 21px;
+    left: 123px;
+    top: 394px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* NIM */
+.nim {
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 148px;
+    top: 434px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Prodi */
+.prodi {
+    position: absolute;
+    width: 264px;
+    height: 21px;
+    left: 82px;
+    top: 474px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Font Biodata */
+.font-biodata {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    left: 28px;
+    top: 597px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Tombol Biodata (Ellipse) */
+.tombol-biodata {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 357px;
+    top: 597px;
+    background: #D9D9D9;
+    border-radius: 180px;
+}
+
+/* Font Daftar Skripsi */
+.font-daftar-skripsi {
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 28px;
+    top: 667px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Tombol Daftar Skripsi (Ellipse) */
+.tombol-daftar-skripsi {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 357px;
+    top: 667px;
+    background: #D9D9D9;
+    border-radius: 180px;
+}
+
+/* Font Status Skripsi */
+.font-status-skripsi {
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 28px;
+    top: 727px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Tombol Status Skripsi (Ellipse) */
+.tombol-status-skripsi {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 357px;
+    top: 727px;
+    background: #D9D9D9;
+    border-radius: 180px;
+}
+
+/* Font Daftar Sempro */
+.font-daftar-sempro {
+    position: absolute;
+    width: 134px;
+    height: 18px;
+    left: 28px;
+    top: 787px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Tombol Daftar Sempro (Ellipse) */
+.tombol-daftar-sempro {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 357px;
+    top: 787px;
+    background: #D9D9D9;
+    border-radius: 180px;
+}
+
+/* Font Daftar Sidang */
+.font-daftar-sidang {
+    position: absolute;
+    width: 126px;
+    height: 18px;
+    left: 28px;
+    top: 847px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Tombol Daftar Sidang (Ellipse) */
+.tombol-daftar-sidang {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 357px;
+    top: 847px;
+    background: #D9D9D9;
+    border-radius: 180px;
+}
+
+/* Font Log Out */
+.font-log-out {
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    left: 1764px;
+    top: 194px;
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* Biodata Section */
+.biodata-section {
+    position: absolute;
+    width: 1246px;
+    height: 645px;
+    left: 592px;
+    top: 336px;
+    background: #F7FBFF;
+    border: 1px solid #D4D7E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Biodata Header */
+.biodata-header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #2DA9B4;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nama-lengkap-biodata {
+    font-family: 'Gotham', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.prodi-biodata {
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.biodata-content {
+    padding: 20px;
+}
+
+.biodata-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
+}
+
+.biodata-item span {
+    display: inline-block;
+    width: 250px;
+}
