@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Skripsi</title>
+    <link rel="stylesheet" href="../css/daftar-sempro.css">
+</head>
+<body>
+    <div class="header">
+        <img src="header.png" alt="Header Background" class="header-bg">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="../img/unair-ftmm-removebg-preview.png" alt="Logo" class="logo">
+                <h1>Portal Skripsi Fakultas Teknologi Maju dan Multidisiplin</h1>
+            </div>
+            <a href="../index.html" class="logout">Log Out</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="../html/homepage-mahasiswa.html" class="beranda">Beranda</a>
+            <div class="profile">
+                <div class="avatar"></div>
+                <div class="info">
+                    <h3>NAMA LENGKAP</h3>
+                    <p>1642210XX</p>
+                    <p>S1 - Teknologi Sains Data</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../html/biodata.html">Biodata<span class="nav-icon"></span></a></li>
+                    <li><a href="../html/daftar-skripsi.html">Daftar Skripsi <span class="nav-icon"></span></a></li>
+                    <li><a href="../html/status-skripsi.html">Status Skripsi <span class="nav-icon"></span></a></li>
+                    <li><a href="../html/daftar-sempro.html" class="active">Daftar Sempro <span class="nav-icon"></span></a></li>
+                    <li><a href="../html/daftar-sidang.html">Daftar Sidang <span class="nav-icon"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <h2>Pengajuan Seminar Proposal</h2>
+            <form id="skripsiForm">
+                <div class="form-group">
+                    <label for="kartu-bimbingan">Upload Kartu Bimbingan</label>
+                    <input type="file" id="kartu-bimbingan" name="kartu-bimbingan">
+                    <div class="note">*Upload Kartu Bimbingan yang sudah 8x Bimbingan</div>
+                </div>
+                <div class="form-group">
+                    <label for="kartu-seminar">Upload Kartu Persetujuan Seminar Proposal</label>
+                    <input type="file" id="kartu-seminar" name="kartu-seminar"></textarea>
+                    <div class="note">Download File Kartu Persetujuan Seminar Proposal</div>
+                </div>
+                <div class="form-group">
+                  <button type="submit">Submit</button>
+                </div>
+                <div class="table-container">
+                    <h2>Status Pengajuan Seminar Proposal</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Judul Skripsi</th>
+                                <th>Dosen Pembimbing</th>
+                                <th>Dosen Penguji</th>
+                                <th>Status</th>
+                                <th>Tanggal Seminar</th>
+                                <th>Tempat Seminar</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../js/daftar-sempro.js"></script>
+</body>
+</html>
